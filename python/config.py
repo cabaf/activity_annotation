@@ -1,1 +1,1 @@
-PROJECT_PATH = '/scr/activity_annotation/'
+PROJECT_PATH = '/path/to/project'
