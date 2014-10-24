@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Action-turk</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="https://vjs.zencdn.net/4.7/video-js.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-12 col-centered page-header">
+          <h2>Human Activities Crawler</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 col-centered" id="task"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4" id="left-player">
+          <h5><b> First Frame </b></h5>
+          <center><div id="video_player_left"></div></center>
+        </div>
+        <div class="col-md-4" id="left-player">
+          <center><div id="video_player_main"></div></center>
+          <center><h5><b> [-------------Selection-------------] </b></h5></center>
+        </div>
+        <div class="col-md-4" id="left-player">
+          <h5><b> Last Frame </b></h5>
+          <center><div id="video_player_right"></div></center>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 col-centered">
+          <button type="button" class="btn btn-info btn-sm" id="add_instance" style="margin-top: 7px"> Add instance </button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 col-centered" id="annotations"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3 col-centered" id="submit_div">
+          <button type="button" class="btn btn-primary btn-sm btn-block" id="submit_task" disabled> <b>Accept HIT</b></button>
+        </div>
+      </div>
+    </div>
+
+        <script src="js/lib/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+        <script src="js/lib/bootstrap.min.js"></script>
+        <script src="js/lib/jquery.bootpag.min.js"></script>
+        <script src="https://vjs.zencdn.net/4.8/video.js"></script>
+        <script src="js/lib/bootbox.min.js"></script>
+        <script src="js/lib/sprintf.min.js"></script>
+        <script>window.ACTIONTURK = {};</script>
+        <script src="js/ui.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html> 
