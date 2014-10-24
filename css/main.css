@@ -1,0 +1,63 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bs-example{
+    margin: 20px;
+}
+
+.page-header {
+    color: #3f1f1f;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.btn-c {
+    border-color: #8B008B; 
+    background-color: #9932CC;
+    color: #fff;
+}
+
+.btn-c:hover {
+    border-color: #8B008B;
+    background-color: #8B008B;
+    color: #fff;
+}
+
+.btn-c:visited {
+    border-color: #8B008B;
+    background-color: #8B008B;
+    color: #fff;
+}
+
+
+.btn-huge {
+    width: 400px !important;
+    font-weight: bold;
+}
+
+.btn-class {
+    width: 195px !important;
+}
+
+.form-control {
+    width:600px;
+}
+
+.modal-content {
+    width:650px !important;
+    margin:auto !important;
+}
+
+.large-button {
+    width: 20% !important;
+}
+
+img {
+     max-width: 100%;
+     max-height: 100%;
+}
